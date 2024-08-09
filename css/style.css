@@ -1,0 +1,34 @@
+.main-title {
+  text-align: center;
+}
+form {
+  padding: 10px;
+  background-color: skyblue;
+}
+main {
+  display: flex;
+}
+aside {
+  padding: 48px;
+}
+.button {
+  height: 32px;
+  background-color: blue;
+  border: none;
+  border-radius: 4px;
+}
+.form-btn-container {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.bg-blue {
+  background-color: blue;
+}
+.bg-red {
+  background-color: red;
+  color: white;
+}
+
+footer {
+  text-align: center;
+}
