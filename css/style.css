@@ -1,9 +1,33 @@
+body {
+  background-color: #fff;
+  background: linear-gradient(#d1dee6, #41bee0, #d1dee6);
+}
 .main-title {
-  text-align: center;
+  display: flex;
+  position: fixed;
+  background: linear-gradient(#41bee0, #d1dee6);
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  z-index: 1000;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 19px;
+}
+ol {
+  font-size: 19px;
 }
 form {
   padding: 10px;
-  background-color: skyblue;
+  border: 3px solid black;
+  background-color: #d1dee6;
+  border-radius: 7px;
 }
 main {
   display: flex;
@@ -11,9 +35,21 @@ main {
 aside {
   padding: 48px;
 }
+.inp-style {
+  width: 100%;
+  padding: 10px 10px;
+  display: inline block;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+.hasil {
+  font-weight: 700;
+  font-size: 25px;
+}
 .button {
   height: 32px;
-  background-color: blue;
   border: none;
   border-radius: 4px;
 }
@@ -22,13 +58,32 @@ aside {
   margin-bottom: 16px;
 }
 .bg-blue {
-  background-color: blue;
+  background-color: #276fdb;
+  margin: 5px;
 }
-.bg-red {
-  background-color: red;
-  color: white;
+.bg-white {
+  background-color: #fff;
+  color: black;
+}
+.form-hasil {
+  text-align: center;
 }
 
 footer {
-  text-align: center;
+  display: flex;
+  background: linear-gradient(#d1dee6, #41bee0);
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  main {
+    flex-direction: column;
+  }
 }
